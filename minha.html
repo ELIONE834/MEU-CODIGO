@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abertura do CNPJ MEI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Abertura do seu CNPJ MEI online</h1>
+            <p>Abra agora o seu MEI e formalize seu negócio! Ter um CNPJ MEI possui várias vantagens!</p>
+        </header>
+        <main>
+            <form action="processa_form.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <button type="submit">Iniciar abertura MEI</button>
+            </form>
+            <div class="benefits">
+                <h2>Tenha seu CNPJ MEI em até 48 horas.</h2>
+                <ul>
+                    <li><strong>Benefícios previdenciários</strong></li>
+                    <li><strong>Declaração anual simplificada</strong></li>
+                </ul>
+                <p class="price">Abra seu MEI agora!</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
